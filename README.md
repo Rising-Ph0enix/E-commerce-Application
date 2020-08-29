@@ -10,7 +10,16 @@ It uses the MongoDB Atlas cloud provider for database hosting
 # API
 For your convenience, the repo includes a postman collection to test the API.
 
-Replace 'localhost:3000' with 'terribly-tiny-tales-challenge.herokuapp.com' to test the API deployed in the cloud.
+Summary of endpoints:
+
+| HTTP method | Endpoint |
+| ------ | ------ |
+| POST | https://terribly-tiny-tales-challenge.herokuapp.com/products/create |
+| GET | https://terribly-tiny-tales-challenge.herokuapp.com/products |
+| GET | https://terribly-tiny-tales-challenge.herokuapp.com/products/:name |
+| PATCH | https://terribly-tiny-tales-challenge.herokuapp.com/products/:name |
+|DELETE | https://terribly-tiny-tales-challenge.herokuapp.com/products/:name |
+
 
 
 # Future Improvements
