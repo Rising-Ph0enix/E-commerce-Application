@@ -1,6 +1,18 @@
 # E-commerce-Application
 Backend for a simple E-commerce application
 
+# Demo
+The backend is deployed at: 
+https://terribly-tiny-tales-challenge.herokuapp.com/
+
+It uses the MongoDB Atlas cloud provider for database hosting
+
+# API
+For your convenience, the repo includes a postman collection to test the API.
+
+Replace 'localhost:3000' with 'terribly-tiny-tales-challenge.herokuapp.com' to test the API deployed in the cloud.
+
+
 # Future Improvements
 In the future, the following improvements can be implemented if the application needs to scale:
 
@@ -8,5 +20,3 @@ In the future, the following improvements can be implemented if the application 
 2) Furthermore, if the restriction that the request content-type should be application/json is removed, we can upload the file. Save it to a separate directory. And store only the URL in the database. This can later be replaced by a cloud file storage provider like Amazon S3. 
 2) If the application needs to scale, we can use references to the documents, instead of embedding review documents into the products document. 
 
-# API
-For your convenience, the repo includes a postman collection to test the API
