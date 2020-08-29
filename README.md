@@ -1,7 +1,7 @@
 # E-commerce-Application
 Backend for a simple E-commerce application
 
-#Future Improvements
+# Future Improvements
 In the future, the following improvements can be implemented if the application needs to scale:
 
 1) Instead of storing the images as a base64 encoded string, we can store it as binary data. (Buffer type in MongoDB). This will save ~30% space. 
