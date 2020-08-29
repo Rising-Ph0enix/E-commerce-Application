@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "5076fe2f-e17c-452d-99c8-4538a412ba74",
+		"name": "E-Commerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create a product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Apple iPhone 11\",\n    \"description\": \"A new dual‑camera system captures more of what you see and love. The fastest chip ever in a smartphone and all‑day battery life let you do more and charge less. And the highest-quality video in a smartphone, so your memories look better than ever.\",\n    \"image\" : \"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\",\n    \"price\" : 64900,\n    \"reviews\" : [\n        {\n            \"name\" : \"Ganesh\",\n            \"rating\" : 5,\n            \"comments\" : \"Stellar product. Apple has outdone themeselves\"\n        }, \n        {\n            \"name\" : \"Rajesh\",\n            \"rating\" : 2,\n            \"comments\" : \"No difference from the old iPhone\"\n        }\n    ] \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"create"
+					]
+				},
+				"description": "Create a new product"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products"
+					]
+				},
+				"description": "Gets all the products"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/:name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						":name"
+					],
+					"variable": [
+						{
+							"key": "name",
+							"value": "Apple iPhone 11"
+						}
+					]
+				},
+				"description": "Deletes a product, given the name of the product"
+			},
+			"response": []
+		},
+		{
+			"name": "Get a specific product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/:name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						":name"
+					],
+					"variable": [
+						{
+							"key": "name",
+							"value": "Apple iPhone 11"
+						}
+					]
+				},
+				"description": "Get a product by name"
+			},
+			"response": []
+		},
+		{
+			"name": "Update a product",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"price\" : 60000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products/:name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						":name"
+					],
+					"variable": [
+						{
+							"key": "name",
+							"value": "Apple iPhone 11"
+						}
+					]
+				},
+				"description": "Update a product, given it's name"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
